@@ -12,9 +12,8 @@ then you can access the directory and run the make command
 cd ft_printf && make
 ```
 
-Now you have your ft_printf library :library:! To use it you only have to add the `ft_printf.h` (inside the `include` folder) into your program header!
-Once you've done that, you can compile your fresh new program with the
-`-L/path/to/libft_printf.a` (change accordingly) and the `-lft_printf` flag :flag:!
+Now you have your ft_printf library :book:! To use it you only have to add the `ft_printf.h` (inside the `include` folder) into your program header!
+Once you've done that, you can compile your fresh new program with the `-L/path/to/libft_printf.a` (change accordingly) and the `-lft_printf` flag :flag:!
 Now that you know how to use it... let's make it!
 
 # ft_printf 🛠️
