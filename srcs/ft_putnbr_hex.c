@@ -33,7 +33,7 @@ int	ft_putnbr_hex(size_t nb, char c)
 		base = "0123456789ABCDEF";
 	str = malloc(baselen(nb) + 1);
 	if (!str)
-		return (NULL);
+		return (0);
 	i = count;
 	str[i] = '\0';
 	while (nb > 0)
