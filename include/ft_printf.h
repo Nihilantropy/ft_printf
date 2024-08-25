@@ -18,7 +18,6 @@
 # include <unistd.h>
 # include <stdint.h>
 
-size_t	ft_strlen(const char *str);
 int		ft_putchar(char c);
 int		ft_putstr(const char *str);
 int		ft_putnbr(int n);
