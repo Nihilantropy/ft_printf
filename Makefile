@@ -1,8 +1,15 @@
-NAME		= libftprintf.a
+NAME		=	libftprintf.a
 
-LIBFT_DIR	= ./srcs
-SRCS		= ft_printf.c ft_check_char.c ft_put.c ft_putchar.c ft_putnbr.c ft_putnbr_hex.c \
-				ft_putptr.c ft_putstr.c ft_putuns.c
+LIBFT_DIR	=	./srcs
+SRCS		= 	ft_printf.c \
+				ft_check_char.c \
+				ft_put.c \
+				ft_putchar.c \
+				ft_putnbr.c \
+				ft_putnbr_hex.c \
+				ft_putptr.c \
+				ft_putstr.c \
+				ft_putuns.c
 
 OBJS		= $(patsubst %.c, $(LIBFT_DIR)/%.o, $(SRCS))
 
@@ -14,12 +21,12 @@ AR			= ar rcs
 
 CC			= gcc
 CFLAGS		= -Wall -Werror -Wextra
-RM = rm -f
+RM			= rm -f
 
 $(NAME):	$(OBJS)
 			$(AR) $(NAME) $(OBJS)
 
-%.o: %.c $(HEADER_DIR)
+%.o:		%.c $(HEADER_DIR)
 			$(CC) -c $< $(CFLAGS) -o $@ -I$(HEADER)
 
 all:		$(NAME)
