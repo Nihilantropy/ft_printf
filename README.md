@@ -1,58 +1,74 @@
-# ft_printf
+### Installation
 
-## Introduction
+You can git clone the repository using https protocol
 
-`ft_printf` is a custom implementation of the standard C library function `printf`. This project aims to deepen your understanding of variadic functions in C and enhance your programming skills. By recreating `printf`, you will gain insight into handling variable arguments and managing formatted output.
+```
+git clone https://github.com/Nihilantropy/ft_printf.git
+```
 
-## Project Description
+then you can access the directory and run the make command
 
-The goal of this project is to recode `printf()`, a function widely used for formatted output in C. The `ft_printf` function you will implement should handle various format specifiers and be comparable to the original `printf` in functionality.
+```bash
+cd ft_printf && make
+```
 
-## Mandatory Part
+Now you have your ft_printf library :library:! To use it you only have to add the `ft_printf.h` (inside the `include` folder) into your program header!
+Once you've done that, you can compile your fresh new program with the `-L/path/to/libft_printf.a` (change accordingly) and the `-lft_printf` flag :flag:!
+Now that you know how to use it... let's make it!
 
-### Requirements
+# ft_printf 🛠️
+
+Welcome to the world of `ft_printf`! 🎉 This project is all about recoding the legendary `printf` function from the C library. If you’ve ever wondered how `printf` works under the hood or wanted to take your C skills to the next level, this is your chance!
+
+
+## 📜 Project Overview
+
+The aim of this project is to create your very own version of `printf()`, a function that’s as versatile as it is essential in C programming. You'll dive into the world of variadic functions and discover how to format and print output in various ways.
+
+## 🎯 Mandatory Part
+
+### What You Need to Do
 
 - **Function Prototype:** `int ft_printf(const char *format, ...);`
-- **Conversion Specifiers to Handle:**
-  - `%c` - Print a single character.
+- **Handle These Conversions:**
+  - `%c` - Print a character.
   - `%s` - Print a string.
   - `%p` - Print a pointer in hexadecimal format.
   - `%d` - Print a decimal number.
-  - `%i` - Print an integer in base 10.
+  - `%i` - Print an integer.
   - `%u` - Print an unsigned decimal number.
-  - `%x` - Print a number in lowercase hexadecimal format.
-  - `%X` - Print a number in uppercase hexadecimal format.
+  - `%x` - Print a number in lowercase hexadecimal.
+  - `%X` - Print a number in uppercase hexadecimal.
   - `%%` - Print a percent sign.
 - **External Functions Allowed:** `malloc`, `free`, `write`, `va_start`, `va_arg`, `va_copy`, `va_end`
-- **Library Creation:** Use `ar` to create the library (`libftprintf.a`).
+- **Library Creation:** Use `ar` to make your library (`libftprintf.a`) and keep it in the root of your repo.
 
-### Implementation Notes
+### What to Keep in Mind
 
-- Avoid implementing buffer management as done in the original `printf()`.
-- Ensure that your function adheres to the specified conversion formats and handles errors appropriately.
-- Your library should be created at the root of your repository.
+- Skip the buffer management of the original `printf()`. Focus on making your function work flawlessly with the given format specifiers.
+- Make sure your implementation is robust and handles errors gracefully.
 
-## Bonus Part
+## 🎁 Bonus Part
 
-While the bonus part is optional, it adds advanced features to your `ft_printf` implementation:
+Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler:
 
-- **Flags Management:** Handle flags such as `-`, `0`, `.`, and minimum field width for conversions.
-- **Additional Flags:** Support `#` and `+` flags.
+- **Flag Management:** Implement flags like `-`, `0`, `.`, and handle minimum field widths.
+- **Additional Flags:** Add support for `#` and `+`.
 
-**Note:** Bonus features will only be evaluated if the mandatory part of the project is fully functional and error-free.
+**Note:** The bonus features will only be reviewed if your mandatory part is spot on—no pressure! 😉
 
-## Common Instructions
+## 🛠️ Common Instructions
 
 - **Language:** C
-- **Norm Compliance:** Ensure all code adheres to the 42 Norm. Bonus files/functions are also subject to Norm checks.
-- **Error Handling:** Prevent unexpected quits such as segmentation faults or memory leaks.
-- **Makefile Requirements:**
+- **Norm Compliance:** Follow the 42 Norm to the letter. This applies to both mandatory and bonus parts.
+- **Error Handling:** No segfaults or memory leaks allowed! Ensure your code runs smoothly.
+- **Makefile Must-Haves:**
   - Include rules for `$(NAME)`, `all`, `clean`, `fclean`, and `re`.
-  - Avoid relinking during the `bonus` rule.
-- **Libft Integration:** If using `libft`, include its sources and Makefile in a `libft` directory and compile it before the project.
+  - Avoid unnecessary relinking in the `bonus` rule.
+- **Libft Integration:** If you’re using `libft`, make sure to include it in a `libft` directory and compile it first.
 
-## Submission
+## 🚀 Submission
 
-Submit your project to the assigned Git repository. Ensure all files are correctly named and included in the repository. The submitted work will be evaluated based on the repository contents. 
+Once you’re done, submit your work to your Git repository. Double-check that all files are correctly named and included. Your project will be graded based on what’s in the repo, so make sure everything is in tip-top shape!
 
-Once completed and passed, you can integrate `ft_printf` into your `libft` for use in future C projects.
+Congratulations! With `ft_printf` added to your toolkit, you’re one step closer to mastering C programming. 🎉💻
