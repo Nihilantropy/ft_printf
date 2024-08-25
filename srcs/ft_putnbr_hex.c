@@ -35,7 +35,7 @@ int	ft_putnbr_hex(size_t nb, char c)
 	if (!str)
 		return (0);
 	i = count;
-	str[i] = '\0';
+	str[i--] = '\0';
 	while (nb > 0)
 	{
 		str[i--] = base[nb % 16];
