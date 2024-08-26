@@ -50,7 +50,7 @@ The aim of this project is to create your very own version of `printf()`, a func
 
 ## 🎁 Bonus Part
 
-Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler:
+Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler (not present in this project):
 
 - **Flag Management:** Implement flags like `-`, `0`, `.`, and handle minimum field widths.
 - **Additional Flags:** Add support for `#` and `+`.
