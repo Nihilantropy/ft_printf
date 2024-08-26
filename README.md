@@ -13,7 +13,7 @@ cd ft_printf && make
 ```
 
 Now you have your ft_printf library :book:! To use it you only have to add the `ft_printf.h` (inside the `include` folder) into your program header!
-Once you've done that, you can compile your fresh new program with the `-L/path/to/libftprintf.a` (change accordingly) and the `-lftprintf` flag :flag:!
+Once you've done that, you can compile your fresh new program with the `-L/path/to/libftprintf.a` (change accordingly) and the `-lftprintf` flag :it:!
 Now that you know how to use it... let's make it!
 
 # ft_printf 🛠️
