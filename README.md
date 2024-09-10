@@ -6,14 +6,14 @@ You can git clone the repository using https protocol
 git clone https://github.com/Nihilantropy/ft_printf.git
 ```
 
-then you can access the directory and run the make command
+access the directory and run the make command
 
 ```bash
 cd ft_printf && make
 ```
 
 Now you have your ft_printf library :book:! To use it you only have to add the `ft_printf.h` (inside the `include` folder) into your program header!
-Once you've done that, you can compile your fresh new program with the `-L/path/to/libftprintf.a` (change accordingly) and the `-lftprintf` flag :flag:!
+Once you've done that, you can compile your fresh new program with the `-L/path/to/libftprintf.a` (change accordingly) and the `-lftprintf` flag :it:!
 Now that you know how to use it... let's make it!
 
 # ft_printf 🛠️
@@ -48,7 +48,7 @@ The aim of this project is to create your very own version of `printf()`, a func
 - Skip the buffer management of the original `printf()`. Focus on making your function work flawlessly with the given format specifiers.
 - Make sure your implementation is robust and handles errors gracefully.
 
-## 🎁 Bonus Part
+## 🎁 Bonus Part (not present in this project)
 
 Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler:
 
