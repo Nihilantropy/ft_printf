@@ -50,7 +50,7 @@ The aim of this project is to create your very own version of `printf()`, a func
 
 ## 🎁 Bonus Part (not present in this project)
 
-Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler:
+Feeling adventurous? Try out these bonus features to make your `ft_printf` even cooler (not present in this project):
 
 - **Flag Management:** Implement flags like `-`, `0`, `.`, and handle minimum field widths.
 - **Additional Flags:** Add support for `#` and `+`.
@@ -72,3 +72,7 @@ Feeling adventurous? Try out these bonus features to make your `ft_printf` even 
 Once you’re done, submit your work to your Git repository. Double-check that all files are correctly named and included. Your project will be graded based on what’s in the repo, so make sure everything is in tip-top shape!
 
 Congratulations! With `ft_printf` added to your toolkit, you’re one step closer to mastering C programming. 🎉💻
+
+## Leave a strar :star:!
+
+If you'd like to see an in-depth analisy of this code, leave a star to let us know! :love_letter:
