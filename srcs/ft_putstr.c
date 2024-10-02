@@ -13,11 +13,11 @@
 #include "../include/ft_printf.h"
 
 /*	ft_putstr:
-		Writes the string 'str' to the standard output.
-		If 'str' is NULL, it writes "(null)" instead.
-		The function iterates over each character in 'str', 
-		calling ft_putchar to write each character, and 
-		accumulates the total number of characters written.
+**	Writes the string 'str' to the standard output.
+**	If 'str' is NULL, it writes "(null)" instead.
+**	The function iterates over each character in 'str', 
+**	calling ft_putchar to write each character, and 
+**	accumulates the total number of characters written.
 */
 int	ft_putstr(const char *str)
 {

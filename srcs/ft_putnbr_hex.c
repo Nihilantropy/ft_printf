@@ -15,9 +15,9 @@
 static int	baselen(size_t nb);
 
 /*	ft_putnbr_hex:
-		Converts the given number 'nb' to a hexadecimal string using the specified base ('x' or 'X').
-		Revert and writes the resulting hexadecimal string to the standard output.
-		Returns the number of digits in the hexadecimal representation.
+**	Converts the given number 'nb' to a hexadecimal string using the specified base ('x' or 'X').
+**	Revert and writes the resulting hexadecimal string to the standard output.
+**	Returns the number of digits in the hexadecimal representation.
 */
 int	ft_putnbr_hex(size_t nb, char c)
 {

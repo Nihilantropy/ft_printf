@@ -16,9 +16,9 @@ static size_t	digits_nb(unsigned long long n);
 static void		print_ptr(uintptr_t addr);
 
 /*	ft_putptr:
-		Writes the memory address 'addr' to the standard output in hexadecimal format, prefixed by "0x".
-		If 'addr' is NULL, it writes "(nil)" instead.
-		Returns the total number of characters written, including the "0x" prefix.
+**	Writes the memory address 'addr' to the standard output in hexadecimal format, prefixed by "0x".
+**	If 'addr' is NULL, it writes "(nil)" instead.
+**	Returns the total number of characters written, including the "0x" prefix.
 */
 int	ft_putptr(void *addr)
 {
@@ -33,8 +33,8 @@ int	ft_putptr(void *addr)
 }
 
 /*	digits_nb:
-		Calculates the number of hexadecimal digits needed to represent the number 'n'.
-		Returns the number of digits.
+**	Calculates the number of hexadecimal digits needed to represent the number 'n'.
+**	Returns the number of digits.
 */
 static size_t	digits_nb(unsigned long long n)
 {
@@ -50,10 +50,10 @@ static size_t	digits_nb(unsigned long long n)
 }
 
 /*	print_ptr:
-		Recursively writes the hexadecimal representation of the memory address 'addr' to the standard output.
-		The function uses a static string "0123456789abcdef" to convert the number to hexadecimal format.
-		The static variable 'digits' retains its value across function calls, allowing the conversion
-		to be performed in a recursive manner without reinitializing the string each time.
+**	Recursively writes the hexadecimal representation of the memory address 'addr' to the standard output.
+**	The function uses a static string "0123456789abcdef" to convert the number to hexadecimal format.
+**	The static variable 'digits' retains its value across function calls, allowing the conversion
+**	to be performed in a recursive manner without reinitializing the string each time.
 */
 static void	print_ptr(uintptr_t addr)
 {

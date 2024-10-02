@@ -13,8 +13,8 @@
 #include <unistd.h>
 
 /*	ft_putchar:
-		Writes the character 'c' to the standard output.
-		Returns the number of characters written, which is always 1.
+**	Writes the character 'c' to the standard output.
+**	Returns the number of characters written, which is always 1.
 */
 int	ft_putchar(char c)
 {

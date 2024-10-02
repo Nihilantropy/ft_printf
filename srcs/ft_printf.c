@@ -13,14 +13,14 @@
 #include "../include/ft_printf.h"
 
 /*	ft_printf:
-		Implements a formatted output conversion similar to the standard printf function.
-		- 'str' is the format string containing the text to be written to stdout, 
-		which can include format specifiers that will be replaced by the values
-		specified in the subsequent arguments.
-		- Uses a variable argument list (va_list) to handle an arbitrary number 
-		of arguments following the format string.
-		- Returns the total number of characters written, or 0 if an error occurs 
-		(e.g., if the format string is invalid).
+**	Implements a formatted output conversion similar to the standard printf function.
+**	- 'str' is the format string containing the text to be written to stdout, 
+**	which can include format specifiers that will be replaced by the values
+**	specified in the subsequent arguments.
+**	- Uses a variable argument list (va_list) to handle an arbitrary number 
+**	of arguments following the format string.
+**	- Returns the total number of characters written, or 0 if an error occurs 
+**	(e.g., if the format string is invalid).
 */
 int	ft_printf(const char *str, ...)
 {

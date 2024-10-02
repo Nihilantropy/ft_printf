@@ -13,9 +13,9 @@
 #include "../include/ft_printf.h"
 
 /*	ft_putnbr:
-		Writes the integer 'n' to the standard output. If 'n' is negative, a '-' sign is written first.
-		Recursively handles each digit and writes it to the standard output.
-		Returns the total number of characters written.
+**	Writes the integer 'n' to the standard output. If 'n' is negative, a '-' sign is written first.
+**	Recursively handles each digit and writes it to the standard output.
+**	Returns the total number of characters written.
 */
 int	ft_putnbr(int n)
 {

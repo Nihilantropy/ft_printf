@@ -13,11 +13,11 @@
 #include "../include/ft_printf.h"
 
 /*	ft_check_char:
-		Validates the format specifiers in the string 'str' used for printing.
-		The function scans through the string and checks each format specifier following a '%'.
-		It ensures that only valid specifiers ('c', 's', 'd', 'i', 'u', 'X', 'x', 'p', '%') are present.
-		If an invalid specifier is found or a '%' is the last character, the function returns 0.
-		Otherwise, it returns 1 indicating all specifiers are valid.
+**	Validates the format specifiers in the string 'str' used for printing.
+**	The function scans through the string and checks each format specifier following a '%'.
+**	It ensures that only valid specifiers ('c', 's', 'd', 'i', 'u', 'X', 'x', 'p', '%') are present.
+**	If an invalid specifier is found or a '%' is the last character, the function returns 0.
+**	Otherwise, it returns 1 indicating all specifiers are valid.
 */
 int	ft_check_char(const char *str)
 {

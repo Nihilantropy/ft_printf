@@ -13,11 +13,11 @@
 #include "../include/ft_printf.h"
 
 /*	ft_put:
-		Handles the conversion specifiers for the ft_printf function and calls 
-		the appropriate function to print the corresponding argument.
-		- 'c' is the conversion specifier that determines how the argument in 'args' 
-		should be printed.
-		- Returns the number of characters printed.
+**	Handles the conversion specifiers for the ft_printf function and calls 
+**	the appropriate function to print the corresponding argument.
+**	- 'c' is the conversion specifier that determines how the argument in 'args' 
+**	should be printed.
+**	- Returns the number of characters printed.
 */
 int	ft_put(char c, va_list args)
 {

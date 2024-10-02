@@ -13,10 +13,10 @@
 #include "../include/ft_printf.h"
 
 /*	ft_putuns:
-		Writes the unsigned integer 'nb' to the standard output.
-		The function recursively divides 'nb' by 10 to process each digit,
-		and then writes each digit to the standard output using ft_putchar.
-		The total number of characters written is accumulated and returned.
+**	Writes the unsigned integer 'nb' to the standard output.
+**	The function recursively divides 'nb' by 10 to process each digit,
+**	and then writes each digit to the standard output using ft_putchar.
+**	The total number of characters written is accumulated and returned.
 */
 int	ft_putuns(unsigned int nb)
 {
